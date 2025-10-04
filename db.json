@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hamza Elgarrai",
+      "email": "hamza@digitalhub.ma",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Startup Owner",
+      "email": "owner@startup.com",
+      "password": "123456",
+      "role": "startup"
+    },
+    {
+      "id": 3,
+      "name": "Investor One",
+      "email": "investor@finance.com",
+      "password": "123456",
+      "role": "investor"
+    },
+    {
+      "id": 4,
+      "name": "Visitor One",
+      "email": "visitor@guest.com",
+      "password": "123456",
+      "role": "visitor"
+    }
+  ],
+
+  "startups": [
+    {
+      "id": 1,
+      "name": "TechArena",
+      "sector": "IA",
+      "description": "Plateforme de mise en relation entre startups et investisseurs via l'IA.",
+      "image": "/images/techarena.png",
+      "creatorId": 2,
+      "createdAt": "2025-09-01"
+    },
+    {
+      "id": 2,
+      "name": "GreenFuture",
+      "sector": "Energie",
+      "description": "Startup marocaine spécialisée dans les énergies renouvelables.",
+      "image": "/images/greenfuture.png",
+      "creatorId": 2,
+      "createdAt": "2025-09-10"
+    },
+    {
+      "id": 3,
+      "name": "FinTech Hub",
+      "sector": "Fintech",
+      "description": "Solutions de paiement numérique sécurisées pour les PME.",
+      "image": "/images/fintech.png",
+      "creatorId": 2,
+      "createdAt": "2025-09-15"
+    }
+  ],
+
+  "events": [
+    {
+      "id": 1,
+      "title": "Maroc Digital Day",
+      "date": "2025-11-15",
+      "location": "Casablanca",
+      "description": "Événement phare pour startups et investisseurs marocains.",
+      "participants": [2, 3] 
+    },
+    {
+      "id": 2,
+      "title": "AI & Innovation Meetup",
+      "date": "2025-12-05",
+      "location": "Rabat",
+      "description": "Rencontre autour de l’intelligence artificielle et ses applications.",
+      "participants": [3]
+    },
+    {
+      "id": 3,
+      "title": "Fintech Summit Africa",
+      "date": "2026-01-20",
+      "location": "Marrakech",
+      "description": "Sommet africain sur l’avenir du paiement numérique.",
+      "participants": []
+    }
+  ],
+
+  "messages": [
+    {
+      "id": 1,
+      "userId": 3,
+      "content": "Bonjour à tous, hâte de rencontrer des startups innovantes lors du Digital Day !",
+      "createdAt": "2025-10-01T09:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "content": "Nous sommes heureux de présenter notre solution IA au prochain meetup.",
+      "createdAt": "2025-10-02T14:10:00Z"
+    }
+  ]
+}

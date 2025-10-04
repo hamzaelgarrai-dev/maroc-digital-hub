@@ -1,1 +1,20 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* move by width of first row */
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.group:hover .animate-scroll {
+  animation-play-state: paused;
+}

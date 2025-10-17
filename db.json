@@ -1,104 +1,255 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Hamza Elgarrai",
       "email": "hamza@digitalhub.ma",
       "password": "123456",
       "role": "admin"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Startup Owner",
       "email": "owner@startup.com",
       "password": "123456",
       "role": "startup"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Investor One",
       "email": "investor@finance.com",
       "password": "123456",
       "role": "investor"
     },
     {
-      "id": 4,
-      "name": "Visitor One",
-      "email": "visitor@guest.com",
-      "password": "123456",
-      "role": "visitor"
+      "id": "77f5",
+      "name": "Ayoub Zoubiri",
+      "email": "Ayoub@gmail.com",
+      "password": "ayoub123",
+      "role": "user"
+    },
+    {
+      "id": "d8ce",
+      "name": "Mouad Laalam",
+      "email": "Mouad@gmail.com",
+      "password": "mouad123",
+      "role": "startup"
     }
   ],
-
   "startups": [
     {
-      "id": 1,
+      "id": "1",
       "name": "TechArena",
       "sector": "IA",
       "description": "Plateforme de mise en relation entre startups et investisseurs via l'IA.",
-      "image": "/images/techarena.png",
+      "image": "src/assets/Images/startupplaceholder.png",
       "creatorId": 2,
       "createdAt": "2025-09-01"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "GreenFuture",
       "sector": "Energie",
       "description": "Startup marocaine spécialisée dans les énergies renouvelables.",
-      "image": "/images/greenfuture.png",
+      "image": "src/assets/Images/startupplaceholder.png",
       "creatorId": 2,
       "createdAt": "2025-09-10"
     },
     {
-      "id": 3,
-      "name": "FinTech Hub",
+      "id": "3",
+      "name": "FinTech Hub1",
       "sector": "Fintech",
       "description": "Solutions de paiement numérique sécurisées pour les PME.",
-      "image": "/images/fintech.png",
+      "image": "src/assets/Images/startupplaceholder.png",
       "creatorId": 2,
       "createdAt": "2025-09-15"
+    },
+    {
+      "id": "4",
+      "name": "FinTech Hub2",
+      "sector": "Fintech",
+      "description": "Solutions de paiement numérique sécurisées pour les PME.",
+      "image": "src/assets/Images/startupplaceholder.png",
+      "creatorId": 2,
+      "createdAt": "2025-09-15"
+    },
+    {
+      "id": "5",
+      "name": "FinTech Hub3",
+      "sector": "Fintech",
+      "description": "Solutions de paiement numérique sécurisées pour les PME.",
+      "image": "src/assets/Images/startupplaceholder.png",
+      "creatorId": 2,
+      "createdAt": "2025-09-15"
+    },
+    {
+      "id": "6",
+      "name": "FinTech Map",
+      "sector": "Fintech",
+      "description": "Solutions de paiement numérique sécurisées pour les PME.",
+      "image": "src/assets/Images/startupplaceholder.png",
+      "creatorId": 2,
+      "createdAt": "2025-09-15"
+    },
+    {
+      "id": "7",
+      "name": "FinTech Map",
+      "sector": "Fintech",
+      "description": "Solutions de paiement numérique sécurisées pour les PME.",
+      "image": "src/assets/Images/startupplaceholder.png",
+      "creatorId": 2,
+      "createdAt": "2025-09-15"
+    },
+    {
+      "id": "8",
+      "name": "FinTech Map",
+      "sector": "Fintech",
+      "description": "Solutions de paiement numérique sécurisées pour les PME.",
+      "image": "src/assets/Images/startupplaceholder.png",
+      "creatorId": 2,
+      "createdAt": "2025-09-15"
+    },
+    {
+      "id": "1760638746536",
+      "name": "Arttech",
+      "sector": "Tourisme",
+      "description": "testttttttttt",
+      "image": "https://res.cloudinary.com/dl7gjsjpa/image/upload/v1760638736/tdakngt619efsye34g6t.png",
+      "creatorId": "d8ce",
+      "createdAt": "2025-10-16"
+    },
+    {
+      "id": 1760640365526,
+      "name": "NewTimeAI",
+      "sector": "AI",
+      "description": "tesssssssttttttt2222",
+      "image": "https://res.cloudinary.com/dl7gjsjpa/image/upload/v1760640363/sftdcwnnkgwmyldvlvvl.png",
+      "creatorId": "d8ce",
+      "createdAt": "2025-10-16T18:46:05.526Z"
     }
   ],
-
   "events": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Maroc Digital Day",
       "date": "2025-11-15",
       "location": "Casablanca",
+      "image": "src/assets/Images/upcomingeventcard.png",
       "description": "Événement phare pour startups et investisseurs marocains.",
-      "participants": [2, 3] 
+      "participants": [
+        "d8ce"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "AI & Innovation Meetup",
       "date": "2025-12-05",
       "location": "Rabat",
+      "image": "src/assets/Images/upcomingeventcard.png",
       "description": "Rencontre autour de l’intelligence artificielle et ses applications.",
-      "participants": [3]
+      "participants": [
+        "d8ce"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Fintech Summit Africa",
       "date": "2026-01-20",
       "location": "Marrakech",
+      "image": "src/assets/Images/upcomingeventcard.png",
       "description": "Sommet africain sur l’avenir du paiement numérique.",
-      "participants": []
-    }
-  ],
-
-  "messages": [
-    {
-      "id": 1,
-      "userId": 3,
-      "content": "Bonjour à tous, hâte de rencontrer des startups innovantes lors du Digital Day !",
-      "createdAt": "2025-10-01T09:30:00Z"
+      "participants": [
+        "d8ce"
+      ]
     },
     {
-      "id": 2,
+      "id": "4",
+      "title": "Fintech Summit Africa",
+      "date": "2026-01-20",
+      "location": "Marrakech",
+      "image": "src/assets/Images/upcomingeventcard.png",
+      "description": "Sommet africain sur l’avenir du paiement numérique.",
+      "participants": [
+        "d8ce"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Fintech Summit Africa",
+      "date": "2026-01-20",
+      "location": "Marrakech",
+      "image": "src/assets/Images/upcomingeventcard.png",
+      "description": "Sommet africain sur l’avenir du paiement numérique.",
+      "participants": []
+    },
+    {
+      "id": "6",
+      "title": "Fintech Summit Africa",
+      "date": "2026-01-20",
+      "location": "Marrakech",
+      "image": "src/assets/Images/upcomingeventcard.png",
+      "description": "Sommet africain sur l’avenir du paiement numérique.",
+      "participants": [
+        "d8ce"
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
       "userId": 2,
-      "content": "Nous sommes heureux de présenter notre solution IA au prochain meetup.",
-      "createdAt": "2025-10-02T14:10:00Z"
+      "username": "Hamza Elgarrai",
+      "content": "Hello everyone, excited to join the forum!",
+      "timestamp": "2025-10-04T13:00:00Z"
+    },
+    {
+      "id": "2",
+      "userId": 3,
+      "username": "Investisseur1",
+      "content": "Looking forward to connecting with startups!",
+      "timestamp": "2025-10-04T14:30:00Z"
+    },
+    {
+      "id": "b742",
+      "userId": "d8ce",
+      "username": "Mouad Laalam",
+      "content": "hi everyone",
+      "timestamp": "2025-10-15T11:42:50.742Z"
+    },
+    {
+      "id": "8b97",
+      "userId": "d8ce",
+      "username": "Mouad Laalam",
+      "content": "thank you",
+      "timestamp": "2025-10-15T11:44:29.227Z"
+    },
+    {
+      "id": "818d",
+      "userId": "d8ce",
+      "username": "Mouad Laalam",
+      "content": "test",
+      "timestamp": "2025-10-15T11:46:48.912Z"
+    },
+    {
+      "id": "8ae9",
+      "userId": "d8ce",
+      "username": "Mouad Laalam",
+      "content": "hhh",
+      "timestamp": "2025-10-15T15:17:36.436Z"
+    },
+    {
+      "id": "3ef8",
+      "userId": "d8ce",
+      "username": "Mouad Laalam",
+      "content": "test",
+      "timestamp": "2025-10-15T15:37:02.757Z"
+    },
+    {
+      "id": "0678",
+      "userId": "d8ce",
+      "username": "Mouad Laalam",
+      "content": "test2",
+      "timestamp": "2025-10-16T12:19:27.161Z"
     }
   ]
 }

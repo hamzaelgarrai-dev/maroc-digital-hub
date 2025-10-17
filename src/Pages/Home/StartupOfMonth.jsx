@@ -7,7 +7,7 @@ function StartupOfMonth() {
 
         <h2 className='text-center text-xl text-[#374151] mb-14'>Startup of the Month</h2>
 
-        <div className='flex justify-start space-x-6 items-start w-[800px] h-[300px] border border-gray-400 rounded-md shadow-md'>
+        <div className='bg-white flex justify-start space-x-6 items-start w-[800px] h-[300px] border border-gray-400 rounded-md shadow-md'>
 
             <div className=' w-[250px] h-[300px] '>
                 <img src={Act} alt="SignIn" className="w-full h-full object-cover " />

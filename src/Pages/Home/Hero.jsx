@@ -1,6 +1,7 @@
 import React from 'react'
 
 import sbg from '../../assets/Images/startup.png'
+import PublishButton from '../../components/buttons/PublishStartupBtn'
 
 function Hero() {
   return (
@@ -21,7 +22,7 @@ function Hero() {
 
         <div className="max-w-[1050px] mx-auto flex flex-col w-full justify-between items-start space-y-4 ">
             <p className='text-[#374151] mb-10'>Increase your visibility and connect with investors & partners.</p>
-            <button className='bg-[#0D9488] w-36 h-11 text-white text-[13px] rounded-sm'>Publish Your Startup</button>
+            <PublishButton/>
         </div>
         
 

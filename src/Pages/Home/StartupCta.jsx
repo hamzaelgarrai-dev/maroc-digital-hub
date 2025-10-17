@@ -1,5 +1,6 @@
 import React from 'react'
 import event from '../../assets/Images/eventCta.png'
+import PublishButton from '../../components/buttons/PublishStartupBtn'
 
 function StartupCta() {
     return (
@@ -14,7 +15,7 @@ function StartupCta() {
 
             <div className="max-w-[1050px] mx-auto flex flex-col w-full justify-between items-start space-y-4 -mt-12 ">
                 <p className='text-[#374151] mb-4'>Increase your visibility and connect with investors & partners.</p>
-                <button className='bg-[#0D9488] w-36 h-11 text-white text-[13px] rounded-sm'>Publish Your Startup</button>
+                <PublishButton/>
             </div>
 
         </section>

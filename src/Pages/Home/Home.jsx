@@ -3,8 +3,8 @@ import Hero from './Hero'
 import CarouselStartup from './CarouselStartup'
 import StartupList from './StartupList'
 import StartupCta from './StartupCta'
-import UpcomingEvent from './UpcomingEvent'
 import StartupOfMonth from './StartupOfMonth'
+import UpcomingEventList from './UpcomingEventList'
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
     <CarouselStartup/>
     <StartupList/>
     <StartupCta/>
-    <UpcomingEvent/>
+    <UpcomingEventList/>
     <StartupOfMonth/>
     </>
   )
